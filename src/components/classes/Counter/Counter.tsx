@@ -22,6 +22,7 @@ class CounterClass extends Component<Readonly<{}>, CounterType> {
   render(): ReactNode {
     return (
       <>
+        <span className="button__label">Classes</span>
         <Output value={this.state.value}/>
         <Buttons add={this.add.bind(this)} subtract={this.subtract.bind(this)}/>
       </>

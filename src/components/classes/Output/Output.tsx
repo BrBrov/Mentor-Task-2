@@ -1,5 +1,5 @@
 import {Component, ReactNode} from 'react';
-import './Output.css';
+import '../../../styles/Output.css';
 import OutputType from '../../../types/output-type.ts';
 
 class Output extends Component<OutputType> {

@@ -1,6 +1,6 @@
 import {Component, ReactNode} from 'react';
 import Button from './Button/Button.tsx';
-import './Buttons.css';
+import '../../../styles/Buttons.css';
 import ButtonsType from '../../../types/buttons-type.ts';
 
 class Buttons extends Component<ButtonsType> {

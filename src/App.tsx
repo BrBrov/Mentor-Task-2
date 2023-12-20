@@ -1,6 +1,7 @@
 import './App.css';
 import {ReactNode} from 'react';
 import CounterClass from './components/classes/Counter/Counter.tsx';
+import CounterFC from './components/functional/Counter/Counter.tsx';
 
 function App(): ReactNode {
 
@@ -12,7 +13,9 @@ function App(): ReactNode {
       <div className="container">
         <CounterClass/>
       </div>
-      <div className="container"></div>
+      <div className="container">
+        <CounterFC/>
+      </div>
     </>
 
   )

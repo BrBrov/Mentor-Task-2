@@ -10,3 +10,10 @@
   border: 1px dashed #e8575b;
   border-radius: 10px;
 }
+
+.button__label {
+  font-family: "Segoe UI Historic", serif;
+  font-size: 1.2em;
+  font-weight: 600;
+  color: #482f02;
+}
